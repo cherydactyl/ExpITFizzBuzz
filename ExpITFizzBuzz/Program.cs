@@ -25,7 +25,7 @@ namespace ExpITFizzBuzz
                 {
                     if (i % 5 == 0)  // also divisible by 5!
                     {
-                        Console.WriteLine("FizzBuzz");
+                        Console.WriteLine("FizzBuzz");  //divisible by both 3 and 5
                     }
                     else
                     {
