@@ -12,15 +12,9 @@ namespace ExpITFizzBuzz
         {
             for (int i = 1; i <= 100; i++)
             {
-                //if (i % 15 == 0)        // divisible by both 3 and 5 means divisible by 15
-                //{
-                //    Console.WriteLine("FizzBuzz");
-                //} else if (i % 3 == 0)  // divisible by 3
-
                 //Slightly more efficient version;
                 //checks for FizzBuzz condition only if Fizz
                 //condition is already met
-
                 if (i % 3 == 0)  // divisible by 3
                 {
                     if (i % 5 == 0)  // also divisible by 5!
@@ -39,9 +33,7 @@ namespace ExpITFizzBuzz
                 {
                     Console.WriteLine(i);
                 }
-   
             }
-
             Console.WriteLine();      //whitespace
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
